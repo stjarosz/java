@@ -11,7 +11,7 @@ public class Natural {
 	private boolean primo;
 	
 	public Natural(int numero) {
-		// estou com preguiça então pega o módulo mesmo e já tá bão
+		// considerando apenas o módulo do número
 		if (numero >= 0) this.numero = numero;
 		else this.numero = -1*numero;
 		
